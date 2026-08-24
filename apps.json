@@ -1,7 +1,7 @@
 {
   "name": "EPIC's source",
   "identifier": "com.epic.plezysource",
-  "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/icon2.png",
+  "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/assets/icon2.png",
   "apps": [
     {
       "name": "Plezy",
@@ -9,7 +9,7 @@
       "developerName": "edde746",
       "subtitle": "Modern Plex, Jellyfin & Emby client",
       "localizedDescription": "Plezy is a modern client for Plex, Jellyfin, and Emby, built for high-quality playback, effortless discovery, and offline access. Connect multiple servers at once and enjoy your media in one clean, native app, no subscription required..",
-      "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/icon.png",
+      "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/assets/icon.png",
       "tintColor": "#E5A00D",
       "versions": [
         {
