@@ -8,7 +8,7 @@
       "developerName": "edde746",
       "subtitle": "Cross-platform Plex & Jellyfin Client",
       "localizedDescription": "A modern video client for Plex and Jellyfin media servers.",
-      "iconURL": "https://raw.githubusercontent.com/edde746/plezy/main/assets/plezy.png",
+      "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/icon.png",
       "tintColor": "#E5A00D",
       "versions": [
         {
