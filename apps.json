@@ -1,0 +1,24 @@
+{
+  "name": "EPIC's source",
+  "identifier": "com.epic.plezysource",
+  "apps": [
+    {
+      "name": "Plezy",
+      "bundleIdentifier": "com.edde746.plezy",
+      "developerName": "edde746",
+      "subtitle": "Cross-platform Plex & Jellyfin Client",
+      "localizedDescription": "A modern video client for Plex and Jellyfin media servers.",
+      "iconURL": "https://raw.githubusercontent.com/edde746/plezy/main/assets/plezy.png",
+      "tintColor": "#E5A00D",
+      "versions": [
+        {
+          "version": "2.17.0",
+          "date": "2026-08-24",
+          "localizedDescription": "## New features\n\n- Live TV recording on Jellyfin and Emby\n- Match Content Resolution on Android TV\n- FFmpeg demuxes every container on Android\n- Anchored grouping, filter, and sort menus on desktop\n- Cmd+, / Ctrl+, opens settings\n- Full details sheet",
+          "downloadURL": "https://github.com/edde746/plezy/releases/download/2.17.0/plezy-ios.ipa",
+          "size": 48487264
+        }
+      ]
+    }
+  ]
+}

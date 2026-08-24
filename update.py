@@ -12,7 +12,10 @@ with urllib.request.urlopen(req) as response:
     release_data = json.loads(response.read().decode())
 
 tag = release_data["tag_name"].lstrip("v")
-published_at = release_data.get("published_at", datetime.datetime.utcnow().isoformat())[:10]
+published_at = release_data.get(
+    "published_at", 
+    datetime.datetime.now(datetime.timezone.utc).isoformat()
+)[:10]
 body = release_data.get("body", "Bug fixes and improvements.")
 
 
