@@ -17,7 +17,7 @@ This repository automatically generates an `apps.json` manifest linking directly
 https://epyke.github.io/SideStoreSourcePlezy/apps.json
 ```
 
-## Images
+## Preview
 
 <p align="center">
   <img src="./assets/s2.png" alt="SideStore Preview 1" width="45%" />
