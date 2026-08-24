@@ -42,7 +42,7 @@ if tag in existing_versions:
 new_version = {
     "version": tag,
     "date": published_at,
-    "localizedDescription": body[:250] if body else "Update release.",
+    "localizedDescription": body.strip(),
     "downloadURL": ipa_asset["browser_download_url"],
     "size": ipa_asset["size"]
 }
