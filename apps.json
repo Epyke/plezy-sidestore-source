@@ -1,6 +1,7 @@
 {
   "name": "EPIC's source",
   "identifier": "com.epic.plezysource",
+  "iconURL": "https://epyke.github.io/SideStoreSourcePlezy/icon.png",
   "apps": [
     {
       "name": "Plezy",
