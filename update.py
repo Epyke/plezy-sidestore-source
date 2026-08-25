@@ -36,7 +36,6 @@ app = source_data["apps"][0]
 
 existing_versions = [v["version"] for v in app.get("versions", [])]
 if tag in existing_versions:
-    print(f"Version {tag} is already up to date.")
     exit(0)
 
 new_version = {
@@ -51,5 +50,3 @@ app["versions"].insert(0, new_version)
 
 with open(JSON_PATH, "w") as f:
     json.dump(source_data, f, indent=2)
-
-print(f"Successfully added version {tag} to {JSON_PATH}!")

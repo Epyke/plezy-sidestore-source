@@ -14,7 +14,7 @@ This repository automatically generates an `apps.json` manifest linking directly
 
 **Source URL:**
 ```text
-https://epyke.github.io/SideStoreSourcePlezy/apps.json
+https://epyke.github.io/plezy-sidestore-source/apps.json
 ```
 
 ## Preview
